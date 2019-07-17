@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body{
+   font-size: 1.172vw;
+}
+
+
+.header {
+    background-color: #1964aa;
+    max-height: 66px;
+    left: 768px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+}
+
+section {
+    overflow: hidden;
+}
+
+.contact {
+    /* margin: 7px; */
+    padding: 10px;
+    font-size: 1.875em;
+    justify-content: flex-end;
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+.contact a {
+    padding: 0px 16px;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Pro";
+    color: honeydew;
+    width: 24.6575%;
+    padding: 18px 16.5px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 14px;
+    padding-left: 16.5px;
+}
+
+
+.logo {
+    width: 39.3157%;
+    padding: 7px;
+}
+
+.parking-plus {
+    text-align: center;
+    padding-top: 65px;
+}
+img.bigimg {width: 64.5370%;}
+
+.mobile-area {
+    margin-top: 35px;
+}
+
+.mobile-text {
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.919em;
+    color: #1964aa;
+    font-family: Lato;
+}
+
+.our-text {
+    color: #e85933;
+    font-size: 1.919em;
+    font-family: Lato;
+    padding-top: 30px;
+}
+
+.street {
+    background-color: #ebf6ff;
+    position: relative;
+    padding: 57px 0;
+}
+
+.car-speed h2 {
+    font-size: 4.375em;
+    box-sizing: border-box;
+    font-family: lato ;
+    font-weight: 700;
+    position: absolute;
+    right: 111px;
+    top: 0;
+}
+
+.hilli {
+    right: 0%;
+    position: absolute;
+    bottom: 0%;
+    z-index: 5;
+    width: 57.97%;
+}
+
+.p-box {
+    text-align: justify;
+    z-index: 9;
+    position: relative;
+}
+
+.of-head h2 {
+    padding: 0px;
+    box-sizing: border-box;
+    font-size:4.375em;
+}
+
+img.red-car {
+    top: 119%;
+    position: absolute;
+    z-index: 6;
+    right: 129%;
+    animation: slide-br 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+    width: 29.5396%;
+}
+
+ @keyframes slide-br {
+    0% {
+        -webkit-transform: translateY(0%) translateX(0%);
+        transform: translateY(0%) translateX(0%);
+    }
+    100% {
+        -webkit-transform: translateY(-335px) translateX(514px);
+        transform: translateY(-173%) translateX(222%);
+    }
+} 
+
+img.white-car {
+    top: 85%;
+    position: absolute;
+    z-index: 6;
+    right: 100%;
+    -webkit-animation: slide-tr 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-tr 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    width: 34.0153%;
+}
+
+@keyframes slide-tr {
+    0% {
+        -webkit-transform: translateY(0%) translateX(0%);
+        transform: translateY(0%) translateX(0%);
+    }
+    100% {
+        --webkit-transform: translateY(-160%) translateX(192%);
+        transform: translateY(-160%) translateX(192%);
+    }
+} 
+
+.of-street {
+    background-color: #fdf4ea;
+    position: relative;
+    padding: 70px 0;
+}
+
+.parking-space {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 60%;
+}
+
+.p-font {
+    margin-top: 35.22%;
+    line-height: 1.5;
+}
+
+img.img-fluid.graund {
+    top: 257px;
+    right: 150px;
+    z-index: 9;
+    width: 100%;
+}
+
+.car-speed h2 {
+    position: absolute;
+    right: 76px;
+    margin-top: 4.22%;
+}
+
+img.img-fluid.pink-car {
+    position: absolute;
+    transform: rotate(-89deg);
+    top: 103%;
+    left: 6%;
+    width: 24.34%;
+    animation:tiptop 5s forwards;
+}
+@keyframes tiptop{
+    0%{     top: 103%;
+            left: 6%;
+        
+    }
+    100%{
+        top: 53%;
+        left: -9%;
+    }
+}
+
+img.img-fluid.blue-car {
+    position: absolute;
+    right: -9%;
+    top: 7%;
+    animation: lotus 5s infinite normal;
+    animation-delay: 4s;
+    transform-origin: 0% 0%;
+    width: 27.674%;
+/* }
+  @-webkit-keyframes lotus {
+    0% { transform: translateX(0px);  }
+    40% { transform: translateX(-350px) translateY(255px) rotate(0deg); } 
+    100% { transform: translateX(-400px) translateY(110px) rotate(92deg); }
+}   */
+}
+@-webkit-keyframes lotus{
+0% {
+    transform: translateX(0%);
+}
+40% {
+    transform: translateX(-165%) translateY(143%) rotate(0deg);
+}
+
+100% {
+    transform: translateX(-185%) translateY(57%) rotate(92deg);
+}
+}
+img.img-fluid.yellow-car {
+    position: absolute;
+    left: 52%;
+    bottom: -52%;
+    width: 25.0803%;
+}
+.yellow-animation{
+    animation: sec3-yellow 2s forwards;
+   
+}
+@keyframes sec3-yellow{
+    0%{     top: 106%;
+    right: 18%;
+        
+    }
+    100%{
+        top: 17%;
+        left: 23%;
+    }
+}
+
+img.img-fluid.door {
+    position: absolute;
+    right: 17.5%;
+    bottom: 12%;
+    width: 16.8025%;
+    transform-origin: 0% 0%;
+    animation-delay: 6s ; 
+    animation: open 6s linear infinite;
+}
+
+@keyframes open {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg)
+    }
+    70% {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg)
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.light {
+    position: absolute;
+    right: 14.7%;
+    top: 39.7%;
+    width: 14.2080%;
+    animation: light 2s infinite;
+    animation-iteration-count: 2;
+    opacity: 0;
+}
+
+@keyframes light {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.parking-locator {
+    background-color: #ebf6ff;
+}
+
+.locator  {
+    color: #263238;
+    padding-bottom: 50px;
+    padding-top: 56px;
+    width: 100%;
+}
+.locator h2{
+    font-size:4.375em;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.p-locator {
+    line-height: 24px;
+    font-size: 1.125em;
+    color: #263238;
+}
+
+.mobile-locator img {
+    margin-top: 56px;
+}
+
+.mobie-locator {
+    margin-top: 56px;
+}
+.contact-p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    width: 162px;
+}
+
+
+/********************
+    Footer Section 
+*********************/
+footer.footer {
+    box-shadow: inset 0px 20px 20px 1px #0f3a63;
+}
+footer.footer, footer a {
+    background-color: #1964aa;
+    color: #fff;
+    font-size: 0.875em;
+}
+.footer-padding {
+    padding: 50px 0;
+    box-shadow: 0px 0px 30px #0f3a63;
+}
+.footer-logo img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-header {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer-content {
+    width: 165px;
+    line-height: 1.2;
+}
+
+a.read-more {
+    display: block;
+    color: #ec9331;
+    font-weight: 700;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu ul li {
+    line-height: 2.2;
+}
+form.message input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="url"], textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+.message{
+    position: relative;
+}
+
+form.message input[type="submit"], button[type="submit"] {
+    color: #ec9331;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 1em;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.footer form.message input[type="submit"] {
+    margin-left: 226px;
+}
+.footer-bottom p {
+    padding: 15px 0;
+    margin-bottom: 0px;
+    border-top: 1px solid #4783bb;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .parking-space {
+        left: 22%;
+        top: 14%;
+    }
+    
+    .mobile-text h3 {
+        font-size: 3em;
+    }
+    p.our-text {
+        font-size: 3em;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        font-size: 2.5em;
+    }
+    p.p-locator {
+        font-size: 2.5em;
+    }
+    footer.footer {
+        text-align: center;
+    }
+    .footer-content {
+        width: 100%;
+        padding: 0 37px;
+        text-align: left;
+    }
+    .footer-menu {
+        padding: 8px;
+    }
+    
+    .footer-menu ul li a {
+        font-size: 2.5em;
+    }
+}
